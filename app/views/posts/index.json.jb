@@ -1,0 +1,8 @@
+@posts.map do |post|
+  {
+    title: post.title,
+    comments: post.comments.map do |comment|
+      {body: comment.body}
+    end
+  }
+end

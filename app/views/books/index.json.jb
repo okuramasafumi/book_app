@@ -1,0 +1,35 @@
+def book_hash(book)
+  {
+    id: book.id,
+    title: book.title,
+    description: book.description,
+    published_at: book.published_at,
+    authors: nil,
+    genre: nil
+  }
+end
+
+{
+  books: @books.map do |book|
+    {
+      id: book.id,
+      title: book.title,
+      description: book.description,
+      published_at: book.published_at,
+      authors: book.authors.map do |author|
+        {
+          id: author.id,
+          first_name: author.first_name,
+          last_name: author.last_name,
+          books: (render partial: 'books/book', collection: author.books, as: :book).as_json
+        }
+      end,
+      genre: {
+        id: book.genre.id,
+        title: book.genre.title,
+        description: book.genre.description,
+        books: (render partial: 'books/book', collection: book.genre.books, as: :book).as_json
+      }
+    }
+  end
+}

@@ -1,0 +1,8 @@
+{
+  id: book.id,
+  title: book.title,
+  description: book.description,
+  published_at: book.published_at,
+  authors: nil,
+  genre: nil
+}

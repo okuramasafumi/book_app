@@ -1,0 +1,4 @@
+{
+  title: post.title,
+  comments: post.comments.map(&:body)
+}

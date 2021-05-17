@@ -1,0 +1,74 @@
+Result of `ab -n 100 -c 10`
+
+[jb]
+Percentage of the requests served within a certain time (ms)
+  50%    545
+  66%    564
+  75%    579
+  80%    597
+  90%    635
+  95%    658
+  98%    709
+  99%    722
+ 100%    722 (longest request)
+
+[jb with method extraction]
+Percentage of the requests served within a certain time (ms)
+  50%    539
+  66%    577
+  75%    602
+  80%    614
+  90%    636
+  95%    649
+  98%    676
+  99%    716
+ 100%    716 (longest request)
+
+[jb with partial]
+Percentage of the requests served within a certain time (ms)
+ 50%    644
+ 66%    671
+ 75%    692
+ 80%    722
+ 90%    753
+ 95%    784
+ 98%    843
+ 99%    902
+100%    902 (longest request)
+
+[Alba]
+Percentage of the requests served within a certain time (ms)
+  50%    538
+  66%    561
+  75%    584
+  80%    590
+  90%    610
+  95%    631
+  98%    659
+  99%    680
+ 100%    680 (longest request)
+
+[jbuilder with partial]
+Percentage of the requests served within a certain time (ms)
+  50%    783
+  66%    809
+  75%    826
+  80%    832
+  90%    862
+  95%    897
+  98%    927
+  99%    928
+ 100%    928 (longest request)
+
+[jbuilder without partial]
+Percentage of the requests served within a certain time (ms)
+  50%    584
+  66%    619
+  75%    634
+  80%    646
+  90%    672
+  95%    690
+  98%    771
+  99%    837
+ 100%    837 (longest request)
+

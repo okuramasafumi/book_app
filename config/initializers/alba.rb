@@ -1,0 +1,1 @@
+Alba.enable_inference!

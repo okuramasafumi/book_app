@@ -1,0 +1,107 @@
+[Alba, -n 100 -c 10]
+Percentage of the requests served within a certain time (ms)
+  50%    347
+  66%    380
+  75%    399
+  80%    411
+  90%    429
+  95%    448
+  98%    478
+  99%    489
+ 100%    489 (longest request)
+
+[jb, -n 100 -c 10]
+Percentage of the requests served within a certain time (ms)
+  50%    319
+  66%    357
+  75%    370
+  80%    380
+  90%    396
+  95%    421
+  98%    433
+  99%    523
+ 100%    523 (longest request)
+
+[jbuilder, -n 100 -c 10]
+Percentage of the requests served within a certain time (ms)
+  50%    315
+  66%    343
+  75%    360
+  80%    363
+  90%    399
+  95%    420
+  98%    518
+  99%    542
+ 100%    542 (longest request)
+
+[Alba, -n 1000 -c 100]
+Percentage of the requests served within a certain time (ms)
+  50%   3237
+  66%   3269
+  75%   3286
+  80%   3296
+  90%   3324
+  95%   3344
+  98%   3372
+  99%   3397
+ 100%   3446 (longest request)
+
+[jb, -n 1000 -c 100]
+Percentage of the requests served within a certain time (ms)
+  50%   3114
+  66%   3144
+  75%   3162
+  80%   3172
+  90%   3202
+  95%   3226
+  98%   3251
+  99%   3283
+ 100%   3339 (longest request)
+
+[jbuilder, -n 1000 -c 100]
+Percentage of the requests served within a certain time (ms)
+  50%   3184
+  66%   3215
+  75%   3236
+  80%   3249
+  90%   3278
+  95%   3302
+  98%   3328
+  99%   3353
+ 100%   3387 (longest request)
+
+[Alba, -n 10 -c 1]
+Percentage of the requests served within a certain time (ms)
+  50%     32
+  66%     35
+  75%     41
+  80%     43
+  90%     73
+  95%     73
+  98%     73
+  99%     73
+ 100%     73 (longest request)
+
+[jb, -n 10 -c 1]
+Percentage of the requests served within a certain time (ms)
+  50%     31
+  66%     33
+  75%     39
+  80%     44
+  90%     75
+  95%     75
+  98%     75
+  99%     75
+ 100%     75 (longest request)
+
+[jbuilder, -n 10 -c 1]
+Percentage of the requests served within a certain time (ms)
+  50%     30
+  66%     38
+  75%     39
+  80%     43
+  90%     72
+  95%     72
+  98%     72
+  99%     72
+ 100%     72 (longest request)
