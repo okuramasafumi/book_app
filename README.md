@@ -1,24 +1,8 @@
-# README
+# Use this app for benchmarking
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Run `JSON_BACKEND=alba bin/rails s` and access `http://localhost:3000/books` and you'll get JSON serialized by [Alba](https://github.com/okuramasafumi/alba).
 
-Things you may want to cover:
+Other available backends are:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- jb
+- jbuilder
