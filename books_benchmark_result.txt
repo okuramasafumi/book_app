@@ -1,4 +1,4 @@
-Result of `ab -n 100 -c 10`
+Result of `ab -n 100 -c 10 http://localhost:3000/books`
 
 [jb]
 Percentage of the requests served within a certain time (ms)
